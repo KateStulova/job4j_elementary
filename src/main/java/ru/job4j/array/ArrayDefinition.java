@@ -14,8 +14,9 @@ public class ArrayDefinition {
         names[1] = "Beta";
         names[2] = "Gamma";
         names[3] = "Delta";
-        for (String name : names) {
-            System.out.println(name);
-        }
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
